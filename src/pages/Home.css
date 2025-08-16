@@ -1,0 +1,67 @@
+.loginPage__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #2e0043, #510765, #730e86);
+}
+
+.loginPage__card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.loginPage__title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #e0b3ff;
+}
+
+.loginPage__subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #d1c4e9;
+}
+
+.loginPage__field {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.loginPage__icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #e0b3ff;
+}
+
+.loginPage__input {
+  width: 100%;
+  padding: 10px 10px 10px 36px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+}
+
+.loginPage__error {
+  margin-bottom: 1rem;
+}
+
+.loginPage__button {
+  --background: #730e86;
+  --background-hover: #510765;
+  --color: #fff;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
